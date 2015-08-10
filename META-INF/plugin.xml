@@ -1,13 +1,15 @@
 <idea-plugin version="2">
-  <id>com.roomj.simpletitles</id>
-  <name>Simple Titles</name>
+  <id>com.roomj.simpletitlesprojectonly</id>
+  <name>Simple Titles - Project Only</name>
   <version>1.0</version>
-  <vendor url="https://github.com/tylercal/simple-titles">Tyler Elliott</vendor>
+  <vendor url="https://github.com/kjaniszewski/simple-titles-project-only">Krzysztof Janiszewski</vendor>
 
   <description><![CDATA[
-      Limit the file part of the window title only include the file name.
+      Fork of https://github.com/tylercal/simple-titles.
 
-      Windows speech recognition fails when a window title is too long, this alleviates the problem.
+      Limit the Jetbrains Product window title to only include the project name.
+
+      This can be useful with using time tracking services.
     ]]></description>
 
   <change-notes><![CDATA[
@@ -21,7 +23,7 @@
 
   <application-components>
     <component>
-      <implementation-class>com.roomj.simpletitles.TitleComponent</implementation-class>
+      <implementation-class>com.roomj.simpletitlesprojectonly.TitleComponent</implementation-class>
     </component>
   </application-components>
 

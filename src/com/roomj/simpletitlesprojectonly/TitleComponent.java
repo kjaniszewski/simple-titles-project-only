@@ -1,4 +1,4 @@
-package com.roomj.simpletitles;
+package com.roomj.simpletitlesprojectonly;
 
 import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.components.ApplicationComponent;
